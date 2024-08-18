@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 0.8% 2%;
+    box-shadow: 0 -10px 12px black;
+    /* background-color: slategray; */
+}
+
+.footer .left{
+    display: flex;
+    align-items: center;
+}
+
+.center ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.right ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right .social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
